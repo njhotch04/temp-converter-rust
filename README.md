@@ -9,3 +9,15 @@ cd temp-converter-rust
 
 # Build and Run
 cargo run
+
+# Usage Demo
+When you run the program, it should run similar to this:
+
+```text
+--- SUPER FAST TEMP CONVERTER ---
+Are you currently measuring temperature in (C)elsius or (F)ahrenheit?
+fahrenheit
+You have selected Fahrenheit.
+What is the number you would like converted?
+68
+68.00F is equal to 20.00C```
