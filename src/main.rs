@@ -28,7 +28,7 @@ fn temp_scale() -> String {
                 return String::from("c");
             }
             //if the user makes an invalid selection this will continue to loop
-            _ => println!("Invalid input. Fahrenheit or Celsius?"),
+            _ => println!("Invalid input. (F)ahrenheit or (C)elsius?"),
         }
     }
 }
@@ -64,11 +64,11 @@ fn conversion(scale: String, number: f32) {
     //if the user selected Celsius we will use the Fahrenheit conversion
     if scale == "c" {
         let f = (number * 9.0 / 5.0) + 32.0;
-        println!("{:.2}C is equal to {:.2}F", number, f);
+        println!("{:.2}°C is equal to {:.2}°F", number, f);
     //else we will use the Celsius conversion because there are only two usable scales
     } else {
         let c = (number - 32.0) * 5.0 / 9.0;
-        println!("{:.2}F is equal to {:.2}C", number, c);
+        println!("{:.2}°F is equal to {:.2}°C", number, c);
     }
 }
 
