@@ -44,7 +44,7 @@ fn temp_identify() -> f32 {
         //this handles the user input and stores it in our number variable using a reference
         io::stdin()
             .read_line(&mut number)
-            .expect("Failed to read line");
+            .expect("Failed to read line.");
         //trims the whitespace from the input and converts the data type
         let number: f32 = match number.trim().parse() {
             Ok(num) => num,
@@ -64,11 +64,11 @@ fn conversion(scale: String, number: f32) {
     //if the user selected Celsius we will use the Fahrenheit conversion
     if scale == "c" {
         let f = (number * 9.0 / 5.0) + 32.0;
-        println!("{:.2}°C is equal to {:.2}°F", number, f);
+        println!("{:.2}°C is equal to {:.2}°F.", number, f);
     //else we will use the Celsius conversion because there are only two usable scales
     } else {
         let c = (number - 32.0) * 5.0 / 9.0;
-        println!("{:.2}°F is equal to {:.2}°C", number, c);
+        println!("{:.2}°F is equal to {:.2}°C.", number, c);
     }
 }
 
