@@ -1,15 +1,15 @@
 # temp-converter-rust
 ## About
-My first project made independently while **attempting** to learn **Rust**. Written after completion of Chapter 3.5 of the Rust documentation for the purpose of proof of knowledge.
+My first project made independently while **attempting** to learn **Rust**. Written after completion of **Chapter 3.5** of **The Rust Programming Language** for the purpose of proof of knowledge.
 
 ## Running the Converter
-**Clone the repository**
+**Clone the repository**:
 $ git clone https://github.com/njhotch04/temp-converter-rust.git
 
-**Navigate to the folder**
+**Navigate to the folder**:
 $ cd temp-converter-rust
 
-**Build and Run**
+**Build and Run**:
 $ cargo run
 
 ## Usage Demo
