@@ -25,5 +25,5 @@ fahrenheit
 You have selected Fahrenheit.
 What is the number you would like converted?
 68
-68.00F is equal to 20.00C
+68.00°F is equal to 20.00°C.
 ```
